@@ -9,8 +9,20 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        "fr" : "#F9F9F9 ", 
+        "br" : "#2A254B" , 
+        "gr" :"#F6F6F6",  
+        "lr":"#FFFFFF",  
+        "mr":'#2A254B' ,
+        "or" : "#FFFFFF" ,
+        "qr" : "#505977 ",
+       "kr" : "#726E8D" ,
+       "jr" :"#000000" ,
+        "ur":'#22202E ',
+        "cr" : "#12131A"
+      },
+      fontFamily: {
+        custom: ['Clash Display'],
       },
     },
   },
