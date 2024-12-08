@@ -3,12 +3,12 @@ import Ceramics from "../components/Ceramics";
 import Features from "../components/Features";
 import Email from "../components/Email";
 
-import Header from "../components/Header";
+
 
 export default function ProductList() {
   return (
     <>
-      <Header />
+      
       <main className="max-w-[1440px] h-auto bg-white flex flex-col md:flex-row">
         {/* Image Section */}
         <div className="w-full md:w-[50%]">

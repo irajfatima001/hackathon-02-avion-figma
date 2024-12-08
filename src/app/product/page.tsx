@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Header from "../components/Header";
+
 import { IoMdArrowDropdown } from "react-icons/io";
 
 export default function Product() {
@@ -68,8 +68,8 @@ export default function Product() {
 
   return (
     <>
-      <div className="bg-white text-[#2A254B]">
-        <Header />
+      <div className="max-w-[1440px] bg-white text-[#2A254B]">
+        
         <div className="max-w-full h-[209px] mt-0 pt-0">
           <Image
             src="/pr2.png"
@@ -82,7 +82,7 @@ export default function Product() {
 
         <div className="flex justify-between items-center px-8 py-4 bg-white max-w-full">
           {/* Left Section: Filters */}
-          <div className="flex gap-4 sm:gap-6 md:gap-10">
+          <div className=" w-[1440px] h-[64] gap-4 sm:gap-6 md:gap-10">
             {/* Category Filter */}
             <div className="flex items-center gap-2 cursor-pointer">
               <span className="text-[#2A254B] font-thin">Category</span>

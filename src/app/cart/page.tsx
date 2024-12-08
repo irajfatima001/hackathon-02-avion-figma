@@ -1,11 +1,11 @@
 import React from "react";
 import Image from "next/image";
-import Header from "../components/Header";
+
 
 const Cart = () => {
   return (
     <>
-      <Header />
+      
       <div>
         <div className="max-w-[1440px] h-[749px] px-4 sm:px-10 lg:px-40 pt-10 pb-16 text-[#2A254B]">
           <h1 className="text-2xl sm:text-3xl text-center lg:text-left">
